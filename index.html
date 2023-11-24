@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="triangle-form">
+        <form id="triangle-form">
+            <h2>AREA OF TRIANGLE</h2>
+            <label for="Base Length"> Base Length: </label>
+            <input type="number" required placeholder="Enter Value" id="base" name="b">
+
+            <label for="Length"> Height Length: </label>
+            <input type="number" required placeholder="Enter Value" id="bases" name="h">
+        </form>
+
+        
+
+        <button onclick="CalculateTriangle()">Calculate</button>
+        
+        <p id="result"></p>
+
+        <!-- <form id="rectangle-form"> -->
+            <h2>AREA OF A PENTAGON</h2>
+            <label for=""> Side of Pentagon:</label>
+            <input type="number" id="side" name="B" required placeholder="Enter Value">
+
+            
+
+        <!-- </form> -->
+        <button onclick="calc()">Calculate</button>
+
+        <p id="results"></p>
+
+
+        <h2>AREA OF A PYRAMID</h2>
+        <label for=""> Base Length: L</label>
+        <input type="number" id="length" placeholder="Enter value" required>
+
+        <label for=""> Base Width: W</label>
+        <input type="number" id="width" placeholder="Enter value" required>
+
+        <label for=""> Height: H</label>
+        <input type="number" id="height" placeholder="Enter value" required>
+
+        <button onclick="pyramid()">Calculate</button>
+
+        <p id="resultsofpyramid"></p>
+    </div>
+
+       
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
